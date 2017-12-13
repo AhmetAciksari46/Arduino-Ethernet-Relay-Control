@@ -1,6 +1,7 @@
 #include <SPI.h> 
 #include <Ethernet.h>
-#define role01 20 //rolelerin sinyal pini ile arduinonun 20. dijital pini arasında bağlantı kurulduğu tanımlanır.
+//rolelerin sinyal pini ile arduinonun 20. dijital pini arasında bağlantı kurulduğu tanımlanır.
+#define role01 20 
 #define role16 36
 //kullanılacak role sayısı kadar tanımlama yapılmalıdır. byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED }; byte ip[] = { 192, 168, 1, 178 };
 byte gateway[] = { 192, 168, 1, 1 };
